@@ -1,0 +1,22 @@
+{
+  "ollama_model": "llama3:8b",
+  "ollama_endpoint": "http://localhost:11434/api/generate",
+  "templates": {
+    "hotel_bagga": {
+      "invoice_number": [0.12, 0.14, 0.15, 0.25],
+      "invoice_date": [0.12, 0.14, 0.8, 0.95],
+      "guest_name": [0.14, 0.16, 0.15, 0.4],
+      "company_name": [0.24, 0.26, 0.15, 0.45],
+      "total_amount": [0.55, 0.59, 0.9, 1.0],
+      "full_text": [0.0, 1.0, 0.0, 1.0]
+    },
+    "the_beatle": {
+      "invoice_number": [0.15, 0.17, 0.8, 0.9],
+      "invoice_date": [0.19, 0.21, 0.8, 0.9],
+      "guest_name": [0.25, 0.27, 0.15, 0.4],
+      "company_name": [0.17, 0.19, 0.15, 0.45],
+      "total_amount": [0.75, 0.79, 0.85, 0.98],
+      "full_text": [0.0, 1.0, 0.0, 1.0]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+# Core UI and Hugging Face libraries
+gradio>=3.30,<4
+transformers>=4.30.0
+huggingface-hub>=0.18.0
+
+# Optional helpers for model acceleration and large-model support
+accelerate>=0.18.0
+# For model weights and tensor serialization
+safetensors>=0.3.0
+
+# PyTorch - leave to pip to resolve the best build for the user's platform
+# If you need GPU support, install a CUDA build of torch explicitly per
+# https://pytorch.org/get-started/locally/
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Common extras
+sentencepiece>=0.1.97
+numpy>=1.24
+Pillow>=9.0.0
+
+# Optional: if your app uses datasets or repo syncs
+datasets>=2.12.0
+
+# Notes:
+# - To install GPU-accelerated torch, follow the official instructions and
+#   replace the `torch` line above with the appropriate wheel before running
+#   `pip install -r requirements.txt`.
+# - You can tighten or loosen version bounds to match your environment.

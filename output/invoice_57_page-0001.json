@@ -1,0 +1,19 @@
+{
+  "invoice_number": null,
+  "invoice_date": "02/08/2025",
+  "buyer_name": "HUMMINGBIRD DIGITAL PVT LTD",
+  "seller_name": "THE BEATLE HOTELS",
+  "total_amount": 97479.63,
+  "products": [
+    {
+      "item_name": "CONFERENCE LUNCH",
+      "rate": 1101.69,
+      "value": 71610.0
+    },
+    {
+      "item_name": "AVPACKAGE",
+      "rate": 11000.0,
+      "value": 11000.0
+    }
+  ]
+}

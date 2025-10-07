@@ -1,0 +1,15 @@
+{
+  "invoice_number": 967,
+  "invoice_date": "24-Jul-2025",
+  "buyer_name": "Mr. SANDEEP PUROHIT",
+  "seller_name": "Hotel Bagga International",
+  "total_amount": 2430.0,
+  "products": [
+    {
+      "product_name": "Room Account Service",
+      "room_tariff": 2170.0,
+      "extra_tariff": 130.2,
+      "taxable_charges": 2430.4
+    }
+  ]
+}
